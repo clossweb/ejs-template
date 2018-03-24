@@ -1,0 +1,44 @@
+a,abbr,acronym,address,applet,b,big,blockquote,body,caption,center,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,font,form,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,u,ul,var{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:0 0}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}
+:focus{outline:0}
+ins{text-decoration:none}
+del{text-decoration:line-through}
+table{border-collapse:collapse;border-spacing:0}
+body h1,body h2,body h3,body h4,body h5,body h6,html h1,html h2,html h3,html h4,html h5,html h6{font-weight:500}
+body a,html a{text-decoration:none!important}
+body header{background:#7c7c7c;color:#FFF}
+body header .header{display:table;width:100%}
+body header .header .header-link,body header .header .header-title{display:table-cell;width:50%}
+body header .header .header-title{padding:0 20px;line-height:2em;vertical-align:middle}
+body header .header .header-title h1{font-size:1.8em}
+body header .header .header-title h2{font-size:1.4em}
+body header .header .header-link{vertical-align:middle}
+body header .header .header-link nav{text-align:right}
+body header .header .header-link nav a{color:#FFF;font-size:1.2em}
+body header .header .header-link nav a.nav__diff{float:right;padding:10px;margin-left:100px}
+body header .header .header-link nav a.nav__link{display:inline-block;text-align:center;width:130px;padding:40px 10px}
+body header .header .header-link nav a.active{color:#7c7c7c;background:#e2e2e2}
+body main .content #tag{display:inline-block;vertical-align:text-top;background:0 0}
+body main .content #tag img{width:1.5rem}
+body main .content table{border:1px solid #787878}
+body main .content table thead>tr th{background:#CCC;border-bottom:1px solid #787878;text-align:center}
+body main .content table tbody>tr td{text-align:center}
+body main .content.main article.type-command .command-body .error-command{display:inline-block;height:150px;background:#dadada;padding:0}
+body main .content.main article.type-command .command-body .error-command:before{content:" ";height:37px;background:#FFF;display:block}
+body main .content.main article.type-command .command-body .error-command h4.error-command_result{display:inline-block;vertical-align:middle;padding:0 10px}
+body main .content.main article.type-command .command-body .error-command:after{content:" ";display:inline-block;vertical-align:middle;height:113px}
+body main .content.action .action-switch{text-align:center;background:#dadada;padding:5px 0}
+body main .content.action .action-switch nav a{margin:0 15px;color:#000}
+body main .content.action .action-switch nav a.active{border-bottom:2px solid #777}
+body main .content.action .dashboard-ctrlview .ctrlview-body button#ctrlview-send{background:#ccc;border:1px solid;padding:2px 10px}
+body main .content.action .chart-view #chart{width:100%}
+body main .content.action .chart-view #chart button.zoomButton{margin:0 3px;padding:5px;border:1px solid;border-radius:5px;background:0 0}
+body main .content.error .dashboard-ctrlpage{padding-top:100px}
+body main .content.error .dashboard-ctrlpage .ctrlpage{text-align:right}
+body main .content.error .dashboard-ctrlpage .ctrlpage button{border:none;background:0 0}
+body main:after{content:" ";display:block;height:100px}
+body footer{position:fixed;bottom:0;width:100%}
+body footer .copyright{background:#000;width:100%;height:50px}

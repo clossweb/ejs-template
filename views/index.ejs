@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css"/>
+    <script>
+        var page = {
+            index: <%= curPage_id %>
+        };
+    </script>
+</head>
+
+<body class="container-fluid">
+    <header class="row">
+        <%- _tpl.header %>
+    </header>
+
+    <main class="row">
+        <%- _tpl.content %>
+    </main>
+
+    <footer class="row">
+        <%- _tpl.footer %>
+    </footer>
+</body>
+
+</html>
